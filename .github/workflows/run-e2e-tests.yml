@@ -13,9 +13,9 @@ jobs:
                 ports:
                   - 5432:5432
                 env:
-                  POSTGRESQL_USERNAME:root
-                  POSTGRESQL_DATABASE:api-solid
-                  POSTGRESQL_PASSWORD:root
+                  POSTGRESQL_USERNAME: root
+                  POSTGRESQL_DATABASE: api_solid
+                  POSTGRESQL_PASSWORD: root
 
         steps:
             - uses: actions/checkout@v3
